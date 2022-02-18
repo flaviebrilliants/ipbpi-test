@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Авторизация",
+    "method": "POST",
+    "url": "/api/personal/auth.json",
+    "args": {
+              "app": null,
+              "appname": null,
+              "login": "ipsadm",
+              "password": "admin",
+              "scopes": null
+    },
+    "resfields": [
+      "role",
+      "personal",
+      "guid",
+      "scopes",
+      "auth",
+      "settings",
+      "token",
+      "status",
+      "error"
+    ],
+    "response": null
+  }
+]

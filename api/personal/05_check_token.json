@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Проверка статуса токена авторизации",
+    "method": "POST",
+    "url": "/api/personal/check-token.json",
+    "args": {
+              "token": null
+    },
+    "resfields": ["status", "check"],
+    "response": null
+  }
+]

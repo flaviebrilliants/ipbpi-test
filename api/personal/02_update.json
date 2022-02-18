@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Обновление ещё не истекшего SID",
+    "method": "POST",
+    "url": "/api/personal/update.json",
+    "args": {
+              "token": null
+    },
+    "resfields": [
+      "role",
+      "personal",
+      "guid",
+      "scopes",
+      "auth",
+      "settings",
+      "token",
+      "error",
+      "ts",
+      "status"
+    ],
+    "response": null
+  }
+]

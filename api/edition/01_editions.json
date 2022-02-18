@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Получение списка периодических изданий",
+    "method": "GET",
+    "url": "/api/ips/editions/editions.json",
+    "args": null,
+    "resfields": [
+      "shortname",
+      "size",
+      "baseid",
+      "edid",
+      "name",
+      "firstadoption",
+      "lastadoption"
+    ],
+    "response": null
+  }
+]

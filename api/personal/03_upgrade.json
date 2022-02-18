@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Обновление контекстов доступа не истекшего SID",
+    "method": "POST",
+    "url": "/api/personal/upgrade.json",
+    "args": {
+              "token": null,
+              "scopes": "write"
+    },
+    "resfields": [
+      "role",
+      "personal",
+      "guid",
+      "scopes",
+      "auth",
+      "settings",
+      "token",
+      "error",
+      "ts",
+      "status"
+    ],
+    "response": null
+  }
+]

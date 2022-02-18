@@ -1,0 +1,83 @@
+[
+  {
+    "name": "Получение значения классификатора\n\tКлассификатор: doctype",
+    "method": "GET",
+    "url": "/api/ips/legislation/bpa-doctype.json",
+    "args": {
+            "bpas": "r026000"
+    },
+    "resfields": ["page", "pageSize", "totalCount", "items"]
+  },
+  {
+    "name": "Получение значения классификатора\n\tКлассификатор: docstate",
+    "method": "GET",
+    "url": "/api/ips/legislation/bpa-docstate.json",
+    "args": {
+            "bpas": "r026000"
+    },
+    "resfields": ["page", "pageSize", "totalCount", "items"]
+  },
+  {
+    "name": "Получение значения классификатора\n\tКлассификатор: organ",
+    "method": "GET",
+    "url": "/api/ips/legislation/bpa-organ.json",
+    "args": {
+            "bpas": "r026000"
+    },
+    "resfields": ["page", "pageSize", "totalCount", "items"]
+  },
+  {
+    "name": "Получение значения классификатора\n\tКлассификатор: region",
+    "method": "GET",
+    "url": "/api/ips/legislation/bpa-region.json",
+    "args": {
+            "bpas": "r026000"
+    },
+    "resfields": ["page", "pageSize", "totalCount", "items"]
+  },
+  {
+    "name": "Получение значения классификатора\n\tКлассификатор: officer",
+    "method": "GET",
+    "url": "/api/ips/legislation/bpa-officer.json",
+    "args": {
+            "bpas": "r026000"
+    },
+    "resfields": ["page", "pageSize", "totalCount", "items"]
+  },
+  {
+    "name": "Получение значения классификатора\n\tКлассификатор: keyword",
+    "method": "GET",
+    "url": "/api/ips/legislation/bpa-keyword.json",
+    "args": {
+            "bpas": "r026000"
+    },
+    "resfields": ["page", "pageSize", "totalCount", "items"]
+  },
+  {
+    "name": "Получение значения классификатора\n\tКлассификатор: edition",
+    "method": "GET",
+    "url": "/api/ips/legislation/bpa-edition.json",
+    "args": {
+            "bpas": "r026000"
+    },
+    "resfields": ["page", "pageSize", "totalCount", "items"]
+  },
+  {
+    "name": "Получение значения классификатора\n\tКлассификатор: branch",
+    "method": "GET",
+    "url": "/api/ips/legislation/bpa-branch.json",
+    "args": {
+            "bpas": "r026000"
+    },
+    "resfields": ["page", "pageSize", "totalCount", "items"]
+  },
+  {
+    "name": "Получение значения классификатора\n\tКлассификатор: stamp",
+    "method": "GET",
+    "url": "/api/ips/legislation/bpa-branch.json",
+    "args": {
+            "bpas": "r026000"
+    },
+    "resfields": ["page", "pageSize", "totalCount", "items"]
+  }
+]

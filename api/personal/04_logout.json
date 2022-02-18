@@ -1,0 +1,19 @@
+[
+  {
+    "name": "Завершение сессии пользователя",
+    "method": "POST",
+    "url": "/api/personal/logout.json",
+    "args": {
+              "token": null
+    },
+    "resfields": [
+      "role",
+      "scopes",
+      "auth",
+      "settings",
+      "token",
+      "status"
+    ],
+    "response": null
+  }
+]

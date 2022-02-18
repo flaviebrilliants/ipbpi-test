@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Получение конфигурации по ее GUID",
+    "method": "GET",
+    "url": "/api/personal/config.json",
+    "args": {
+              "token": null,
+              "cguid": null
+    },
+    "resfields": [
+      "status",
+      "configs",
+      "error"
+    ],
+    "response": null
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "name": "Получение статистики по запросам ИПБПИ",
+  "method": "GET",
+  "url": "/api/admin/statistics/get.json",
+  "args": {
+            "date": null,
+            "func": null,
+            "user": null,
+            "schema": null,
+            "limit": null,
+            "page": null,
+            "sort": null,
+            "kind": null
+  },
+  "resfields": ["page", "pageSize", "items", "totalCount"]
+}

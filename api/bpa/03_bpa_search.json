@@ -1,0 +1,723 @@
+[
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: number_eq",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "number_eq": "111-УГ"
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: number",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "number_eq": "111-УГ"
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: number_list, bpas_filter",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000/r080600",
+      "number_eq": "19-РЗ, 111-УГ"
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: number_gt",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "number_gt": "111-УГ"
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: number_lt",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "number_gt": "111-УГ"
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: number_ct",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "number_ct": "УГ"
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: pbdate",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "pbdate": "30.07.2021"
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: pbunit",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "unit": "80"
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: pbnumber",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "pbnumber": "6000202105280001"
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: pbnumber",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "pbnumber": "6000202105280001"
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: date",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "date": "10.06.2021, 21.06.2021"
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: type",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "type": "Постановление"
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: organ",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "organ": "Администрация"
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: state",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "state": "Действует без изменений"
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: keys",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "keys": "ИМУЩЕСТВО"
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: officer",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "officer": "Туманов"
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: region",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "region": "город Псков"
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: branch",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "branch": "Региональные программы"
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: publication",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "publication": "Великолукская правда Новости от 06.02.2007 г."
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: regnum_eq",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "regnum_eq": null
+    },
+    "resfields": null
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: regnum",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "regnum": null
+    },
+    "resfields": null
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: regnum_list",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "regnum_list": null
+    },
+    "resfields": null
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: regnum_gt",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "regnum_gt": null
+    },
+    "resfields": null
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: regnum_lt",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "regnum_lt": null
+    },
+    "resfields": null
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: regnum_ct",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "regnum_ct": null
+    },
+    "resfields": null
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: regdate",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "regdate": null
+    },
+    "resfields": null
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: new",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "new": 200
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: rired",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "rired": 200
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: rored",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "rored": 200
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: name",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "name": "Постановление Собрания депутатов"
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: text",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "text": "Об объеме и структуре государственного заказа на мероприятия по профессиональному развитию"
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: query",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "query": "воинский учет"
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  },
+  {
+    "name": "Поиск документов в указанных БПА\n\tАргумент: query, in_all_redactions",
+    "method": "POST",
+    "url": "/api/ips/legislation/search.json",
+    "args": {
+      "bpas": "r026000",
+      "query": "воинский учет",
+      "in_all_redactions": true
+    },
+    "resfields": {
+      "page": null,
+      "pageSize": null,
+      "wording": null,
+      "docs": {
+        "hash": null,
+        "docdate": null,
+        "publications": null,
+        "baseid": null,
+        "image": null,
+        "name": null,
+        "nd": null,
+        "state": null,
+        "adoption": null
+      }
+    }
+  }
+]

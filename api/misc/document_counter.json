@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Получение баннера количества документов\n\tТип отчета: bpas",
+    "method": "GET",
+    "url": "/api/ips/counter.json",
+    "args": {
+      "schemas": "r026000",
+      "rtype": "bpas"
+    },
+    "resfields": [
+      "mindate",
+      "rtype",
+      "count",
+      "updatets",
+      "maxdate"
+    ],
+    "response": null
+  },
+  {
+    "name": "Получение баннера количества документов\n\tТип отчета: editions",
+    "method": "GET",
+    "url": "/api/ips/counter.json",
+    "args": {
+      "schemas": "r026000",
+      "rtype": "editions"
+    },
+    "resfields": [
+      "mindate",
+      "rtype",
+      "count",
+      "updatets",
+      "maxdate"
+    ],
+    "response": null
+  }
+]

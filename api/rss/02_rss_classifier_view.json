@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Получение списка доступных для выбора значений классификаторов в генераторе RSS,\n\tКлассификатор: doctype",
+    "method": "GET",
+    "url": "/rss/classifier-doctype.json",
+    "args": {
+              "bpa": "r026000",
+              "page": null,
+              "limit": null
+    },
+    "resfields": ["page", "pageSize", "items", "totalCount"],
+    "response" : null
+  },
+  {
+    "name": "Получение списка доступных для выбора значений классификаторов в генераторе RSS,\n\tКлассификатор: docstate",
+    "method": "GET",
+    "url": "/rss/classifier-docstate.json",
+    "args": {
+              "bpa": "r026000",
+              "page": null,
+              "limit": null
+  },
+    "resfields": ["page", "pageSize", "items", "totalCount"],
+    "response": null
+  },
+  {
+    "name": "Получение списка доступных для выбора значений классификаторов в генераторе RSS,\n\tКлассификатор: organ",
+    "method": "GET",
+    "url": "/rss/classifier-organ.json",
+    "args": {
+              "bpa": "r026000",
+              "page": null,
+              "limit": null
+    },
+    "resfields": ["page", "pageSize", "items", "totalCount"],
+    "response": null
+  },
+  {
+    "name": "Получение списка доступных для выбора значений классификаторов в генераторе RSS,\n\tКлассификатор: region",
+    "method": "GET",
+    "url": "/rss/classifier-region.json",
+    "args": {
+              "bpa": "r026000",
+              "page": null,
+              "limit": null
+    },
+    "resfields": ["page", "pageSize", "items", "totalCount"],
+    "response": null
+  },
+  {
+    "name": "Получение списка доступных для выбора значений классификаторов в генераторе RSS,\n\tКлассификатор: officer",
+    "method": "GET",
+    "url": "/rss/classifier-officer.json",
+    "args": {
+              "bpa": "r026000",
+              "page": null,
+              "limit": null
+    },
+    "resfields": ["page", "pageSize", "items", "totalCount"],
+    "response": null
+  },
+  {
+    "name": "Получение списка доступных для выбора значений классификаторов в генераторе RSS,\n\tКлассификатор: keyword",
+    "method": "GET",
+    "url": "/rss/classifier-keyword.json",
+    "args": {
+              "bpa": "r026000",
+              "page": null,
+              "limit": null
+    },
+    "resfields": ["page", "pageSize", "items", "totalCount"],
+    "response": null
+  },
+  {
+    "name": "Получение списка доступных для выбора значений классификаторов в генераторе RSS,\n\tКлассификатор: edition",
+    "method": "GET",
+    "url": "/rss/classifier-edition.json",
+    "args": {
+              "bpa": "r026000",
+              "page": null,
+              "limit": null
+    },
+    "resfields": ["page", "pageSize", "items", "totalCount"],
+    "response": null
+  },
+  {
+    "name": "Получение списка доступных для выбора значений классификаторов в генераторе RSS,\n\tКлассификатор: branch",
+    "method": "GET",
+    "url": "/rss/classifier-branch.json",
+    "args": {
+              "bpa": "r026000",
+              "page": null,
+              "limit": null
+    },
+    "resfields": ["page", "pageSize", "items", "totalCount"],
+    "response": null
+  }
+]

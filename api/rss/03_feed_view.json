@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Генерация RSS ленты",
+    "method": "POST",
+    "url": "/rss/feed.rss",
+    "args": {
+              "bpa": "r026000",
+              "type": "Постановление",
+              "state": null,
+              "organ": "Администрация",
+              "keys": null,
+              "officer": null,
+              "region": "город Псков",
+              "branch": null,
+              "new": null,
+              "date": "14.06.2021, 14.08.2021",
+              "limit": 30
+    },
+    "resfields": null,
+    "response": null
+  }
+]

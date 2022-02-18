@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Получение списка конфигураций приложения\n\tТип конфигурации: default",
+    "method": "GET",
+    "url": "/api/personal/config/list.json",
+    "args": {
+              "token": null,
+              "type": "default",
+              "name": null
+    },
+    "resfields": [
+      "status",
+      "configs",
+      "error"
+    ],
+    "response": null
+  },
+  {
+    "name": "Получение списка конфигураций приложения\n\tТип конфигурации: app",
+    "method": "GET",
+    "url": "/api/personal/config/list.json",
+    "args": {
+              "token": null,
+              "type": "app",
+              "name": null
+    },
+    "resfields": [
+      "status",
+      "configs",
+      "error"
+    ],
+    "response": null
+  },
+  {
+    "name": "Получение списка конфигураций приложения\n\tТип конфигурации: group",
+    "method": "GET",
+    "url": "/api/personal/config/list.json",
+    "args": {
+              "token": null,
+              "type": "group",
+              "name": null
+    },
+    "resfields": [
+      "status",
+      "configs",
+      "error"
+    ],
+    "response": null
+  },
+  {
+    "name": "Получение списка конфигураций приложения\n\tТип конфигурации: user",
+    "method": "GET",
+    "url": "/api/personal/config/list.json",
+    "args": {
+              "token": null,
+              "type": "user",
+              "name": null
+    },
+    "resfields": [
+      "status",
+      "configs",
+      "error"
+    ],
+    "response": null
+  }
+]

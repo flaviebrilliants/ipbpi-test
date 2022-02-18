@@ -1,0 +1,29 @@
+[
+  {
+    "name": "Получение тела документа\n\tАргумент: nd",
+    "method": "GET",
+    "url": "/api/ips/legislation/document",
+    "args": {
+            "nd": 130137198
+    },
+    "resfields": null
+  },
+  {
+    "name": "Получение тела документа\n\tАргумент: hash",
+    "method": "GET",
+    "url": "/api/ips/legislation/document",
+    "args": {
+            "hash": "b991c9561484e703a484af64079b9466776f2f31e6e6780d31215841b394d22a"
+    },
+    "resfields": null
+  },
+  {
+    "name": "Получение тела документа\n\tАргумент: pubnumber",
+    "method": "GET",
+    "url": "/api/ips/legislation/document",
+    "args": {
+            "pubnumber": 6000202106210002
+    },
+    "resfields": null
+  }
+]

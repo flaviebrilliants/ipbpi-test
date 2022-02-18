@@ -1,0 +1,197 @@
+[
+  {
+    "name": "Получение карточки документа\n\tАргумент: hash",
+    "method": "GET",
+    "url": "/api/ips/legislation/document_card.json",
+    "args": {
+            "hash": "b991c9561484e703a484af64079b9466776f2f31e6e6780d31215841b394d22a"
+    },
+    "resfields": {
+      "adoption": null,
+      "type": null,
+      "suppliment": {
+        "name": null,
+        "path": null
+      },
+      "hash": null,
+      "ofpubnumber": null,
+      "minustdate": null,
+      "minustnum": null,
+      "keywords": null,
+      "baseid": null,
+      "officers": null,
+      "comment": null,
+      "branches": null,
+      "publications": null,
+      "nd": null,
+      "state": null,
+      "name": null,
+      "description": null,
+      "billnumber": null,
+      "docnpa": null,
+      "region": null,
+      "actualrdk": null,
+      "directrefs": {
+        "hash": null,
+        "adoption": null,
+        "name": null,
+        "description": null,
+        "nd": null,
+        "baseid": null,
+        "redaction": null,
+        "comment": null,
+        "publications": null
+      },
+      "reverserefs": null,
+      "directrefs0": null,
+      "reverserefs0": null,
+      "redactions": {
+        "id": null,
+        "version": null,
+        "refkind": null,
+        "completed": null,
+        "refnd": null,
+        "refhash": null,
+        "refadoption": null,
+        "image": null,
+        "data": null,
+        "size": null,
+        "hascontent": null,
+        "actual": null,
+        "status": null
+      },
+      "attributes": null,
+      "status": null
+    }
+  },
+  {
+    "name": "Получение карточки документа\n\tАргумент: nd",
+    "method": "GET",
+    "url": "/api/ips/legislation/document_card.json",
+    "args": {
+            "nd": 130137198
+    },
+    "resfields": {
+      "adoption": null,
+      "type": null,
+      "suppliment": {
+        "name": null,
+        "path": null
+      },
+      "hash": null,
+      "ofpubnumber": null,
+      "minustdate": null,
+      "minustnum": null,
+      "keywords": null,
+      "baseid": null,
+      "officers": null,
+      "comment": null,
+      "branches": null,
+      "publications": null,
+      "nd": null,
+      "state": null,
+      "name": null,
+      "description": null,
+      "billnumber": null,
+      "docnpa": null,
+      "region": null,
+      "actualrdk": null,
+      "directrefs": {
+        "hash": null,
+        "adoption": null,
+        "name": null,
+        "description": null,
+        "nd": null,
+        "baseid": null,
+        "redaction": null,
+        "comment": null,
+        "publications": null
+      },
+      "reverserefs": null,
+      "directrefs0": null,
+      "reverserefs0": null,
+      "redactions": {
+        "id": null,
+        "version": null,
+        "refkind": null,
+        "completed": null,
+        "refnd": null,
+        "refhash": null,
+        "refadoption": null,
+        "image": null,
+        "data": null,
+        "size": null,
+        "hascontent": null,
+        "actual": null,
+        "status": null
+      },
+      "attributes": null,
+      "status": null
+    }
+  },
+  {
+    "name": "Получение карточки документа\n\tАргумент: pubnumber",
+    "method": "GET",
+    "url": "/api/ips/legislation/document_card.json",
+    "args": {
+            "pubnumber": 6000202106210002
+    },
+    "resfields": {
+      "adoption": null,
+      "type": null,
+      "suppliment": {
+        "name": null,
+        "path": null
+      },
+      "hash": null,
+      "ofpubnumber": null,
+      "minustdate": null,
+      "minustnum": null,
+      "keywords": null,
+      "baseid": null,
+      "officers": null,
+      "comment": null,
+      "branches": null,
+      "publications": null,
+      "nd": null,
+      "state": null,
+      "name": null,
+      "description": null,
+      "billnumber": null,
+      "docnpa": null,
+      "region": null,
+      "actualrdk": null,
+      "directrefs": {
+        "hash": null,
+        "adoption": null,
+        "name": null,
+        "description": null,
+        "nd": null,
+        "baseid": null,
+        "redaction": null,
+        "comment": null,
+        "publications": null
+      },
+      "reverserefs": null,
+      "directrefs0": null,
+      "reverserefs0": null,
+      "redactions": {
+        "id": null,
+        "version": null,
+        "refkind": null,
+        "completed": null,
+        "refnd": null,
+        "refhash": null,
+        "refadoption": null,
+        "image": null,
+        "data": null,
+        "size": null,
+        "hascontent": null,
+        "actual": null,
+        "status": null
+      },
+      "attributes": null,
+      "status": null
+    }
+  }
+]

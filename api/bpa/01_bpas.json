@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Получение списка загруженных БПА",
+    "method": "GET",
+    "url": "/api/ips/legislation/bpas.json",
+    "args": null,
+    "resfields": {
+      "name": null,
+      "id": null,
+      "counties": {
+        "name": null,
+        "id": null,
+        "bpas": {
+          "name": null,
+          "size": null,
+          "version": null,
+          "baseid": null,
+          "last": null,
+          "first": null,
+          "id": null
+        }
+      }
+    }
+  }
+]

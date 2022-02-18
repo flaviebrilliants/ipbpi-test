@@ -1,0 +1,336 @@
+Тестирование api/bpa
+Тестирование: Получение списка загруженных БПА
+	URL: http://192.168.56.1:8080/api/ips/legislation/bpas.json
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Получение значения классификатора
+	Классификатор: doctype
+	URL: http://192.168.56.1:8080/api/ips/legislation/bpa-doctype.json?bpas=r026000
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Получение значения классификатора
+	Классификатор: docstate
+	URL: http://192.168.56.1:8080/api/ips/legislation/bpa-docstate.json?bpas=r026000
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Получение значения классификатора
+	Классификатор: organ
+	URL: http://192.168.56.1:8080/api/ips/legislation/bpa-organ.json?bpas=r026000
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Получение значения классификатора
+	Классификатор: region
+	URL: http://192.168.56.1:8080/api/ips/legislation/bpa-region.json?bpas=r026000
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Получение значения классификатора
+	Классификатор: officer
+	URL: http://192.168.56.1:8080/api/ips/legislation/bpa-officer.json?bpas=r026000
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Получение значения классификатора
+	Классификатор: keyword
+	URL: http://192.168.56.1:8080/api/ips/legislation/bpa-keyword.json?bpas=r026000
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Получение значения классификатора
+	Классификатор: edition
+	URL: http://192.168.56.1:8080/api/ips/legislation/bpa-edition.json?bpas=r026000
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Получение значения классификатора
+	Классификатор: branch
+	URL: http://192.168.56.1:8080/api/ips/legislation/bpa-branch.json?bpas=r026000
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Получение значения классификатора
+	Классификатор: stamp
+	URL: http://192.168.56.1:8080/api/ips/legislation/bpa-branch.json?bpas=r026000
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: number_eq
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000&number_eq=111-УГ
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: number
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000&number_eq=111-УГ
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: number_list, bpas_filter
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000/r080600&number_eq=19-РЗ,+111-УГ
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: number_gt
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000&number_gt=111-УГ
+	Дозвонились? - False
+!!! Ошибка при тестировании API функции «03_bpa_search.json»
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: number_lt
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000&number_gt=111-УГ
+	Дозвонились? - False
+!!! Ошибка при тестировании API функции «03_bpa_search.json»
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: number_ct
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?number_ct=УГ&bpas=r026000
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: pbdate
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000&pbdate=30.07.2021
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: pbunit
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000&unit=80
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: pbnumber
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000&pbnumber=6000202105280001
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: pbnumber
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000&pbnumber=6000202105280001
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: date
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000&date=10.06.2021,+21.06.2021
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: type
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?type=Постановление&bpas=r026000
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: organ
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000&organ=Администрация
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: state
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000&state=Действует+без+изменений
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: keys
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000&keys=ИМУЩЕСТВО
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: officer
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000&officer=Туманов
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: region
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000&region=город+Псков
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: branch
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000&branch=Региональные+программы
+	Дозвонились? - False
+!!! Ошибка при тестировании API функции «03_bpa_search.json»
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: publication
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000&publication=Великолукская+правда+Новости+от+06.02.2007+г.
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: regnum_eq
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000
+	Дозвонились? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: regnum
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000
+	Дозвонились? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: regnum_list
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000
+	Дозвонились? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: regnum_gt
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000
+	Дозвонились? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: regnum_lt
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000
+	Дозвонились? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: regnum_ct
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000
+	Дозвонились? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: regdate
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000
+	Дозвонились? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: new
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?new=200&bpas=r026000
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: rired
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000&rired=200
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: rored
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000&rored=200
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: name
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?name=Постановление+Собрания+депутатов&bpas=r026000
+	Дозвонились? - False
+!!! Ошибка при тестировании API функции «03_bpa_search.json»
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: text
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000&text=Об+объеме+и+структуре+государственного+заказа+на+мероприятия+по+профессиональному+развитию
+	Дозвонились? - False
+!!! Ошибка при тестировании API функции «03_bpa_search.json»
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: query
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?bpas=r026000&query=воинский+учет
+	Дозвонились? - False
+!!! Ошибка при тестировании API функции «03_bpa_search.json»
+Тестирование: Поиск документов в указанных БПА
+	Аргумент: query, in_all_redactions
+	URL: http://192.168.56.1:8080/api/ips/legislation/search.json?in_all_redactions=True&bpas=r026000&query=воинский+учет
+	Дозвонились? - False
+!!! Ошибка при тестировании API функции «03_bpa_search.json»
+Ошибка при тестировании api функции: 05_bpa_common_search.json
+Тестирование api/edition
+Тестирование: Получение списка периодических изданий
+	URL: http://192.168.56.1:8080/api/ips/editions/editions.json
+	Дозвонились? - True
+!!! Ошибка при тестировании API функции «01_editions.json»
+Тестирование: Получение списка томов выбранного периодического издания
+	Аргумент: yearsonly
+	URL: http://192.168.56.1:8080/api/ips/editions/volumes.json?edition=e100&yearsony=1
+	Дозвонились? - False
+Тестирование: Получение списка томов выбранного периодического издания
+	Аргумент: lastonly
+	URL: http://192.168.56.1:8080/api/ips/editions/volumes.json?lastonly=1&edition=e100
+	Дозвонились? - False
+Тестирование: Получение списка томов выбранного периодического издания
+	Аргумент: year
+	URL: http://192.168.56.1:8080/api/ips/editions/volumes.json?edition=e100&year=2020
+	Дозвонились? - False
+Ошибка при тестировании api функции: 
+Тестирование api/misc
+Тестирование: Получение баннера количества документов
+	Тип отчета: bpas
+	URL: http://192.168.56.1:8080/api/ips/counter.json?rtype=bpas&schemas=r026000
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Получение баннера количества документов
+	Тип отчета: editions
+	URL: http://192.168.56.1:8080/api/ips/counter.json?rtype=editions&schemas=r026000
+	Дозвонились? - True
+	Поля на месте? - True
+Ошибка при тестировании api функции: ipbpi_version.json
+Тестирование api/personal
+Тестирование: Авторизация
+	URL: http://192.168.56.1:8080/api/personal/auth.json?login=ipsadm&password=admin
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Обновление ещё не истекшего SID
+	URL: http://192.168.56.1:8080/api/personal/update.json?token=dfc1d65697f8b83ac269e86265c05d7b.3600
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Обновление контекстов доступа не истекшего SID
+	URL: http://192.168.56.1:8080/api/personal/upgrade.json?token=0e779cad3cf84ed2c30e83888693cfd1.3600&scopes=write
+	Дозвонились? - False
+!!! Ошибка при тестировании API функции «03_upgrade.json»
+Тестирование: Завершение сессии пользователя
+	URL: http://192.168.56.1:8080/api/personal/logout.json?token=3b7a355c68ca52e926982d244426e8f4.3600
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Проверка статуса токена авторизации
+	URL: http://192.168.56.1:8080/api/personal/check-token.json?token=3ebe4e9006b228e67bdf5105983af191.3600
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Получение списка конфигураций приложения
+	Тип конфигурации: default
+	URL: http://192.168.56.1:8080/api/personal/config/list.json?type=default&token=5fdb1e3cd472b7ca704b77aefdd2a903.3600
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Получение списка конфигураций приложения
+	Тип конфигурации: app
+	URL: http://192.168.56.1:8080/api/personal/config/list.json?type=app&token=d90a893ed47567b23825550a10b618d2.3600
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Получение списка конфигураций приложения
+	Тип конфигурации: group
+	URL: http://192.168.56.1:8080/api/personal/config/list.json?type=group&token=39774d3e2e697501523be751b42c82a4.3600
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Получение списка конфигураций приложения
+	Тип конфигурации: user
+	URL: http://192.168.56.1:8080/api/personal/config/list.json?type=user&token=59762cea7176889461a0663c7155bf8e.3600
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Получение конфигурации по ее GUID
+	URL: http://192.168.56.1:8080/api/personal/config.json?token=f045dc4f550624e4ae4c2a206d76177b.3600
+	Дозвонились? - False
+!!! Ошибка при тестировании API функции «07_config.json»
+Тестирование: Получения свойств авторизованного пользователя
+	URL: http://192.168.56.1:8080/api/personal/user.json?token=24de679e456eb571c1aae41a71b15ed5.3600
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование api/rss
+Тестирование: Получение списка доступных для выбора БПА в генераторе RSS
+	URL: http://192.168.56.1:8080/rss/bpas.json
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Получение списка доступных для выбора значений классификаторов в генераторе RSS,
+	Классификатор: doctype
+	URL: http://192.168.56.1:8080/rss/classifier-doctype.json?bpa=r026000
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Получение списка доступных для выбора значений классификаторов в генераторе RSS,
+	Классификатор: docstate
+	URL: http://192.168.56.1:8080/rss/classifier-docstate.json?bpa=r026000
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Получение списка доступных для выбора значений классификаторов в генераторе RSS,
+	Классификатор: organ
+	URL: http://192.168.56.1:8080/rss/classifier-organ.json?bpa=r026000
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Получение списка доступных для выбора значений классификаторов в генераторе RSS,
+	Классификатор: region
+	URL: http://192.168.56.1:8080/rss/classifier-region.json?bpa=r026000
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Получение списка доступных для выбора значений классификаторов в генераторе RSS,
+	Классификатор: officer
+	URL: http://192.168.56.1:8080/rss/classifier-officer.json?bpa=r026000
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Получение списка доступных для выбора значений классификаторов в генераторе RSS,
+	Классификатор: keyword
+	URL: http://192.168.56.1:8080/rss/classifier-keyword.json?bpa=r026000
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Получение списка доступных для выбора значений классификаторов в генераторе RSS,
+	Классификатор: edition
+	URL: http://192.168.56.1:8080/rss/classifier-edition.json?bpa=r026000
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Получение списка доступных для выбора значений классификаторов в генераторе RSS,
+	Классификатор: branch
+	URL: http://192.168.56.1:8080/rss/classifier-branch.json?bpa=r026000
+	Дозвонились? - True
+	Поля на месте? - True
+Тестирование: Генерация RSS ленты
+	URL: http://192.168.56.1:8080/rss/feed.rss?type=Постановление&bpa=r026000&date=14.06.2021,+14.08.2021&organ=Администрация&region=город+Псков&limit=30
+	Дозвонились? - True

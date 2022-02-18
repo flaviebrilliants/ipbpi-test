@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Получение оглавления документа",
+    "method": "GET",
+    "url": null,
+    "args": {
+      "hash": null,
+      "pubnumber": null,
+      "nd": null,
+      "rdk": null,
+      "file": null
+    },
+    "resfields": null
+  }
+]

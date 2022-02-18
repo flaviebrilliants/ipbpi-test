@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Получение списка томов выбранного периодического издания\n\tАргумент: yearsonly",
+    "method": "GET",
+    "url": "/api/ips/editions/volumes.json",
+    "args": {
+      "edition": "e100",
+      "yearsony": 1
+    },
+    "resfields": null,
+    "response": null
+  },
+  {
+    "name": "Получение списка томов выбранного периодического издания\n\tАргумент: lastonly",
+    "method": "GET",
+    "url": "/api/ips/editions/volumes.json",
+    "args": {
+      "edition": "e100",
+      "lastonly": 1
+    },
+    "resfields": null,
+    "response": null
+  },
+  {
+    "name": "Получение списка томов выбранного периодического издания\n\tАргумент: year",
+    "method": "GET",
+    "url": "/api/ips/editions/volumes.json",
+    "args": {
+      "edition": "e100",
+      "year": 2020
+    },
+    "resfields": null,
+    "response": null
+  }
+]

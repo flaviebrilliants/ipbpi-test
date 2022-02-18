@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Получения свойств авторизованного пользователя",
+    "method": "GET",
+    "url": "/api/personal/user.json",
+    "args": {
+              "token": null
+    },
+    "resfields": ["guid", "login", "groups", "group_names", "lock", "protected",
+      "scopes", "role", "description", "personal", "settings"]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Получение списка доступных для выбора БПА в генераторе RSS",
+    "method": "GET",
+    "url": "/rss/bpas.json",
+    "args": {
+      "page": null,
+      "limit": null
+    },
+    "resfields": ["page", "pageSize", "items", "totalCount"]
+  }
+]
